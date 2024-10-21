@@ -1,3 +1,36 @@
 body{
     display: grid;
+    grid-template-columns: 10fr 70fr;
+    grid-template-rows: 20vh 20vh 50vh;
+    gap: 5px;
+}
+
+.drace-klass{
+    grid-column: 1/2;
+    grid-row: 2/5 ;
+}
+
+.div-border-klass {
+    border: solid 3px black;
+    border-radius: 4px;
+    background-color: black;
+    size: 100%;
+
+}
+
+.logo-klass{
+    height: 100%;
+    /* width: auto 0; */
+    display: flex;
+    justify-content: center;
+}
+
+.text-klass{
+    text-align: center;
+    /* font-size: large; */
+    color: white;
+}
+
+a{
+    color: white;
 }
