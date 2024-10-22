@@ -1,7 +1,7 @@
 body{
     display: grid;
-    grid-template-columns: 10fr 70fr;
-    grid-template-rows: 20vh 20vh 50vh;
+    grid-template-columns: 20fr 70fr;
+    grid-template-rows: 20vh 20vh 80vh;
     gap: 5px;
 }
 
